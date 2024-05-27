@@ -2,8 +2,8 @@
     "name": "Lab8-Starter",
     "short_name": "Andrew Pegg",
     "description": "A pwa to show lab 8 functionality",
-    "start_url": "./index.html",
-    "display": "browser",
+    "start_url": "",
+    "display": "fullscreen",
     "background_color": "white",
     "theme_color": "white",
     "icons": [
