@@ -57,7 +57,7 @@ function initializeServiceWorker() {
 
   if ("serviceWorker" in navigator) {
     window.addEventListener('load', (event)=>{
-        const register = navigator.serviceWorker.register('/sw.js',{
+        const register = navigator.serviceWorker.register('/Lab8-Starter/sw.js',{
           scope: '/',
         }).then(function(registration){
           console.log('ServiceWorker registration successful with scope: ', registration.scope);
